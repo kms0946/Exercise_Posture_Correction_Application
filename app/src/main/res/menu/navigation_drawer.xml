@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/help"
+            android:title="도움말"
+            android:checked="true" />
+        <item
+            android:id="@+id/Logout"
+            android:title="로그아웃" />
+
+    </group>
+</menu>

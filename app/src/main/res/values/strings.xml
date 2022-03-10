@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">헬스피플</string>
+    <string name="findPwd">&#160;<u>비밀번호를 잊으셨나요?</u></string>
+    <string name="joinText">헬스피플\n회원가입을 환영합니다.</string>
+    <string name="loginText">로그인을 통해\n자세를 분석해보세요.</string>
+    <string name="name">Name</string>
+    <string name="id">ID</string>
+    <string name="email">Email</string>
+    <string name="pwd">Password</string>
+    <string name="show">Show</string>
+    <string name="gallery">갤러리에서 불러오기</string>
+    <string name="videoPreview">위 영상으로\n분석하시겠습니까?</string>
+</resources>
