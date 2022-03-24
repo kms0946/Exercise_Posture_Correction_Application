@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".health_record">
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ProgressBar
+            android:id="@+id/progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="right|top"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/circle_blue"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/circle_white"
+            android:rotation="-90">
+
+        </ProgressBar>
+
+        <TextView
+            android:id="@+id/countDown"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:paddingTop="25dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="15dp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/readyBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:textColor="#FC015B"
+            android:textAlignment="center"
+            android:textSize="80sp"/>
+
+
+    </FrameLayout>
+
+
+
+
+    <ToggleButton
+        android:id="@+id/recordBtn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/ic_start"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textOn=""
+        android:textOff=""
+        android:text=""
+        android:layout_marginBottom="30dp"/>
+
+</RelativeLayout>

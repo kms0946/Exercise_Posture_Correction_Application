@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".health_record">
+
+    <ImageView
+        android:id="@+id/logo_mini"
+        android:layout_width="145dp"
+        android:layout_height="114dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="130dp"
+        android:src="@drawable/loading_logo"/>
+
+    <TextView
+        android:id="@+id/logo_sname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo_mini"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="헬스피플"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/logo_seng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo_sname"
+        android:layout_centerHorizontal="true"
+        android:textSize="12sp"
+        android:text="Exercise Posture Correction Application"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/explain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_seng"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:paddingBottom="15dp"
+        android:text="헬스 자세를 알고\n건강해지자!"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textColor="#BDBDBD"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/loginBtn"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/joinBtn"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_blue"
+        android:text="로그인"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/joinBtn"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_white"
+        android:text="회원가입"
+        android:textSize="20sp"
+        android:textColor="@color/gray"/>
+
+
+
+
+
+
+</RelativeLayout>

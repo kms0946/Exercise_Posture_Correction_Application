@@ -16,5 +16,6 @@
     <color name="light_yellow">#FFFFFCB0</color>
     <color name="ghost_white">#FFF4F4F9</color>
     <color name="light_blue">#86c5e5</color>
+    <color name="gray">#808080</color>
 
 </resources>
